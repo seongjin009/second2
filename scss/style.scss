@@ -1,0 +1,59 @@
+@import 'background';
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	text-align: center;
+	width: 30%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+@media screen and (max-width: 1599px) {
+	body {
+		background: var(--color1);
+		section {
+			width: 80%;
+			h1 {
+				color: white;
+			}
+			a {
+				text-decoration: none;
+				background: white;
+			}
+		}
+	}
+}
+@media screen and (max-width: 1299px) {
+	body {
+		background: var(--color2);
+		section {
+			width: 80%;
+			h1 {
+				color: balck;
+			}
+			a {
+				text-decoration: none;
+				background: black;
+			}
+		}
+	}
+}
+@media screen and (max-width: 599px) {
+	body {
+		background: var(--color3);
+		section {
+			width: 80%;
+			h1 {
+				color: balck;
+			}
+			a {
+				text-decoration: none;
+				background: black;
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+html {
+  --color1: hotpink;
+  --color2: red;
+  --color3: aqua;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 1599px) {
+  body {
+    background: var(--color1);
+  }
+  body section {
+    width: 80%;
+  }
+  body section h1 {
+    color: white;
+  }
+  body section a {
+    text-decoration: none;
+    background: white;
+  }
+}
+@media screen and (max-width: 1299px) {
+  body {
+    background: var(--color2);
+  }
+  body section {
+    width: 80%;
+  }
+  body section h1 {
+    color: balck;
+  }
+  body section a {
+    text-decoration: none;
+    background: black;
+  }
+}
+@media screen and (max-width: 599px) {
+  body {
+    background: var(--color3);
+  }
+  body section {
+    width: 80%;
+  }
+  body section h1 {
+    color: balck;
+  }
+  body section a {
+    text-decoration: none;
+    background: black;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
